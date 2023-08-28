@@ -8,13 +8,18 @@ Code https://github.com/batreller/telegram_android_session_converter
 import time
 from typing import Literal
 
-from BufferWrapper.models.auth import AuthCredentials
-from BufferWrapper.models.datacenter import Datacenter
-from BufferWrapper.models.headers import Headers
-from BufferWrapper.models.ip import IP
-from BufferWrapper.models.salt import Salt
-from BufferWrapper.models.tg_android_session import TGAndroidSession
-from NativeByteBuffer import NativeByteBuffer
+from mobile_reger.src.models.decode_tgnet_dat.telegram_android_session_converter.BufferWrapper.models.auth import \
+    AuthCredentials
+from mobile_reger.src.models.decode_tgnet_dat.telegram_android_session_converter.BufferWrapper.models.datacenter import \
+    Datacenter
+from mobile_reger.src.models.decode_tgnet_dat.telegram_android_session_converter.BufferWrapper.models.headers import \
+    Headers
+from mobile_reger.src.models.decode_tgnet_dat.telegram_android_session_converter.BufferWrapper.models.ip import IP
+from mobile_reger.src.models.decode_tgnet_dat.telegram_android_session_converter.BufferWrapper.models.salt import Salt
+from mobile_reger.src.models.decode_tgnet_dat.telegram_android_session_converter.BufferWrapper.models.tg_android_session import \
+    TGAndroidSession
+from mobile_reger.src.models.decode_tgnet_dat.telegram_android_session_converter.NativeByteBuffer import \
+    NativeByteBuffer
 
 
 class BufferWrapper:

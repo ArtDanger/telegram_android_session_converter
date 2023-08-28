@@ -6,9 +6,10 @@ from typing import Optional
 from telethon.sync import TelegramClient
 from telethon.sessions.string import CURRENT_VERSION, _STRUCT_PREFORMAT, StringSession
 
-from BufferWrapper.models.auth import AuthCredentials
-from BufferWrapper.models.ip import IP
-from BufferWrapper.models.salt import Salt
+from mobile_reger.src.models.decode_tgnet_dat.telegram_android_session_converter.BufferWrapper.models.auth import \
+    AuthCredentials
+from mobile_reger.src.models.decode_tgnet_dat.telegram_android_session_converter.BufferWrapper.models.ip import IP
+from mobile_reger.src.models.decode_tgnet_dat.telegram_android_session_converter.BufferWrapper.models.salt import Salt
 
 
 class Datacenter:

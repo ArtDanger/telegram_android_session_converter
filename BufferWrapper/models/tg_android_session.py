@@ -1,7 +1,9 @@
 from typing import Optional, List
 
-from BufferWrapper.models.datacenter import Datacenter
-from BufferWrapper.models.headers import Headers
+from mobile_reger.src.models.decode_tgnet_dat.telegram_android_session_converter.BufferWrapper.models.datacenter import \
+    Datacenter
+from mobile_reger.src.models.decode_tgnet_dat.telegram_android_session_converter.BufferWrapper.models.headers import \
+    Headers
 
 
 class TGAndroidSession:
